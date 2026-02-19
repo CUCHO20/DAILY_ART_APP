@@ -3,10 +3,9 @@ module.exports = {
   // importante: el preset de nativewind
   presets: [require("nativewind/preset")],
   content: [
-    "./App.{js,jsx,ts,tsx}",
-    "./components/**/*.{js,jsx,ts,tsx}",
     "./app/**/*.{js,jsx,ts,tsx}",
-    "./src/**/*.{js,jsx,ts,tsx}",
+    "./components/**/*.{js,jsx,ts,tsx}",
+    "./components/ui/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {},
